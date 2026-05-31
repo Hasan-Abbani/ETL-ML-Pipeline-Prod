@@ -10,7 +10,7 @@ A Python pipeline to collect, merge, and analyze energy meter consumption and co
 - Detects anomalies using z-score and week-over-week thresholds
 - Forecasts next-week consumption per site with simple lag-based models (linear / random forest)
 - Generates an interactive Plotly HTML dashboard and text reports
-- Sends email reports via Gmail SMTP (optional)
+- Sends email reports via Gmail SMTP
 
 ## Repository layout
 
@@ -108,14 +108,7 @@ Outputs are written to CSV and HTML files in the project root (these are ignored
 
 - Keep `.env` and any credentials out of the repository. The included `.gitignore` already excludes `.env`, `venv`, and generated CSV/TXT files.
 
-## License
-
-Add a `LICENSE` file (e.g., MIT or Apache-2.0) if you plan to publish this project publicly.
-
-## Contributing
-
-- If you want others to contribute, add a `CONTRIBUTING.md` with guidelines and tests.
 
 ## Contact
 
-For questions about this repo, open an issue or contact the maintainer.
+For questions or feedback, please open an issue in this repository.
